@@ -2,6 +2,7 @@ package com.tts.android.ttsandroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.tts.android.ttsandroid.objects.Money;
 import com.tts.android.ttsandroid.objects.Transaction;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        Uncomment this code when you're ready for task #3
 //        TransactionVisualisation vis = (TransactionVisualisation)findViewById(R.id.visualisation);
+//        vis.setVisibility(View.VISIBLE);
 //        double[] incomeAndExpense = getIncomeAndExpense();
 //        vis.setAmounts(incomeAndExpense[0], incomeAndExpense[1]);
     }
