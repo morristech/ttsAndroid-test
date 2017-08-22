@@ -8,6 +8,10 @@ import java.util.Map;
  */
 
 public class Money {
+
+    public static final String DEBIT = "debit";
+    public static final String CREDIT = "credit";
+
     public static final Map<String, String> CURRENCIES = new HashMap<String, String>(){
         {
             put("EUR","€");
