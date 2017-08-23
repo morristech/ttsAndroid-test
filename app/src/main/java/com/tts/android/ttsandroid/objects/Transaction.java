@@ -8,11 +8,17 @@ import android.graphics.Color;
 
 public class Transaction {
 
-    public static final int SPENDING_GROUP_INCOME = Color.parseColor("#ff94b93d");
-    public static final int SPENDING_GROUP_DAYTODAY = Color.parseColor("#ff32b1c8");
-    public static final int SPENDING_GROUP_RECURRING = Color.parseColor("#fffec44a");
-    public static final int SPENDING_GROUP_EXCEPTION = Color.parseColor("#ffec7c31");
-    public static final int SPENDING_GROUP_INVESTMENT = Color.parseColor("#ffbc4d9b");
+    public static final String SPENDING_GROUP_INCOME = "Income";
+    public static final String SPENDING_GROUP_DAYTODAY = "Day-to-day";
+    public static final String SPENDING_GROUP_RECURRING = "Recurring";
+    public static final String SPENDING_GROUP_EXCEPTION = "Exception";
+    public static final String SPENDING_GROUP_INVESTMENT = "Invest-save-repay";
+
+    public static final int SPENDING_GROUP_INCOME_COLOUR = Color.parseColor("#ff94b93d");
+    public static final int SPENDING_GROUP_DAYTODAY_COLOUR = Color.parseColor("#ff32b1c8");
+    public static final int SPENDING_GROUP_RECURRING_COLOUR = Color.parseColor("#fffec44a");
+    public static final int SPENDING_GROUP_EXCEPTION_COLOUR = Color.parseColor("#ffec7c31");
+    public static final int SPENDING_GROUP_INVESTMENT_COLOUR = Color.parseColor("#ffbc4d9b");
 
     public String description;
     public String accountName;
