@@ -27,4 +27,20 @@ public class Transaction {
     public String spendingGroupName;
     public Money amount;
     public String note;
+
+    public int getColorForGroup(String group) {
+        switch (group) {
+            case SPENDING_GROUP_INCOME :
+                return SPENDING_GROUP_INCOME_COLOUR;
+            case SPENDING_GROUP_DAYTODAY :
+                return SPENDING_GROUP_DAYTODAY_COLOUR;
+            case SPENDING_GROUP_RECURRING :
+                return SPENDING_GROUP_RECURRING_COLOUR;
+            case SPENDING_GROUP_EXCEPTION :
+                return SPENDING_GROUP_EXCEPTION_COLOUR;
+            case SPENDING_GROUP_INVESTMENT :
+                return SPENDING_GROUP_INVESTMENT_COLOUR;
+        }
+        return 0;
+    }
 }
